@@ -1,4 +1,4 @@
 h1:contains('Index') {
-    display: none;
+    display: hidden;
 }
 
