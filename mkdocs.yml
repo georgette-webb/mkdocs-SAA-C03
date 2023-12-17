@@ -1,9 +1,18 @@
 site_name: Solutions Architect - SAA-C03
 site_dir: my_site
+site_description: Solutions Architect - SAA-C03
+# site_url: #
+site_author: Georgette Webb
+
 theme:
   name: material
-#  custom_dir: overrides
+  #custom_dir: overrides
   favicon: images/favicon.png
+  include_sidebar: true
+  extra_css:
+  - css/custom.css
+  - css/responsive.css
+
   features:
     - navigation.tabs
     - navigation.sections
@@ -44,6 +53,8 @@ theme:
     - Domain 6: 'Domain 6\index.md'
     - Domain 7: 'Domain 7\index.md'
 
+  pages:
+    - 404: '404.md'
 
   plugins:
     - typeset:
@@ -73,8 +84,4 @@ extra:
   generator: false
 extra_javascript:
   - js/custom.js
-extra_css:
-  - css/custom.css
-
-
   
