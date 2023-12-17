@@ -1,0 +1,1722 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Domain%202/">
+      
+      
+        <link rel="next" href="../Domain%204/">
+      
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Index - Solutions Architect - SAA-C03</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#domain-3-design-high-performing-architectures" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Solutions Architect - SAA-C03" class="md-header__button md-logo" aria-label="Solutions Architect - SAA-C03" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.986 0a.545.545 0 0 0-.534.548l-.006 4.908c0 .145.06.283.159.39a.532.532 0 0 0 .38.155h3.429l8.197 17.68a.536.536 0 0 0 .488.319h5.811a.547.547 0 0 0 .543-.548v-4.908a.543.543 0 0 0-.543-.548h-2.013L12.739.316A.55.55 0 0 0 12.245 0H4.991Zm.54 1.09h6.367l8.16 17.681a.536.536 0 0 0 .488.318h1.818v3.817h-4.922L9.24 5.226a.536.536 0 0 0-.488-.318h-3.23Zm2.013 8.237a.538.538 0 0 0-.486.31L.6 23.213a.55.55 0 0 0 .032.528.533.533 0 0 0 .454.25h6.169a.547.547 0 0 0 .497-.31l3.38-7.165a.54.54 0 0 0-.003-.469l-3.093-6.41a.547.547 0 0 0-.494-.31Zm.006 1.804 2.488 5.152-3.122 6.62H1.947Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Solutions Architect - SAA-C03
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Index
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Solutions Architect – SAA-C03
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%201/" class="md-tabs__link">
+          
+  
+  Domain 1
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%202/" class="md-tabs__link">
+          
+  
+  Domain 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Domain 3
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%204/" class="md-tabs__link">
+          
+  
+  Domain 4
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%205/" class="md-tabs__link">
+          
+  
+  Domain 5
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%206/" class="md-tabs__link">
+          
+  
+  Domain 6
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%207/" class="md-tabs__link">
+          
+  
+  Domain 7
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Solutions Architect - SAA-C03" class="md-nav__button md-logo" aria-label="Solutions Architect - SAA-C03" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.986 0a.545.545 0 0 0-.534.548l-.006 4.908c0 .145.06.283.159.39a.532.532 0 0 0 .38.155h3.429l8.197 17.68a.536.536 0 0 0 .488.319h5.811a.547.547 0 0 0 .543-.548v-4.908a.543.543 0 0 0-.543-.548h-2.013L12.739.316A.55.55 0 0 0 12.245 0H4.991Zm.54 1.09h6.367l8.16 17.681a.536.536 0 0 0 .488.318h1.818v3.817h-4.922L9.24 5.226a.536.536 0 0 0-.488-.318h-3.23Zm2.013 8.237a.538.538 0 0 0-.486.31L.6 23.213a.55.55 0 0 0 .032.528.533.533 0 0 0 .454.25h6.169a.547.547 0 0 0 .497-.31l3.38-7.165a.54.54 0 0 0-.003-.469l-3.093-6.41a.547.547 0 0 0-.494-.31Zm.006 1.804 2.488 5.152-3.122 6.62H1.947Z"/></svg>
+
+    </a>
+    Solutions Architect - SAA-C03
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Solutions Architect – SAA-C03
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%201/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#domain-3-design-high-performing-architectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Domain 3: Design High-Performing Architectures
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Domain 3: Design High-Performing Architectures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#task-statement-1-determine-high-performing-andor-scalable-storage-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task Statement 1: Determine high-performing and/or scalable storage solutions.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storage Types:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#factors-for-choosing-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Factors for Choosing Storage:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-storage-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      AWS Storage Services:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operational-support-for-scaling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operational Support for Scaling:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#future-storage-needs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Future Storage Needs:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-storage-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Storage Services:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#s3-resiliency" class="md-nav__link">
+    <span class="md-ellipsis">
+      S3 Resiliency:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ebs-and-snapshots" class="md-nav__link">
+    <span class="md-ellipsis">
+      EBS and Snapshots:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-efs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Amazon EFS:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-fsx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Amazon FSx:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-growth-consideration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Growth Consideration:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-latency-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Low-Latency Requirements:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Optimization:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-statement-2-design-high-performing-and-elastic-compute-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task Statement 2: Design high-performing and elastic compute solutions.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#designing-high-performing-and-elastic-compute-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Designing High-Performing and Elastic Compute Solutions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-ec2-instances" class="md-nav__link">
+    <span class="md-ellipsis">
+      Amazon EC2 Instances
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Containers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functions-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      Functions (Lambda)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architecting-for-scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Architecting for Scalability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-specifics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Service Specifics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-statement-3-determine-high-performing-database-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task Statement 3: Determine high-performing database solutions.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-and-database-engine-variety" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task and Database Engine Variety
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-management-simplified" class="md-nav__link">
+    <span class="md-ellipsis">
+      Database Management Simplified
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-the-right-database-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing the Right Database Solution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deep-knowledge-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deep Knowledge Required
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-engine-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Database Engine Selection
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimizing-database-throughput" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optimizing Database Throughput
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#efficient-connection-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Efficient Connection Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capacity-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Capacity Planning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aurora-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aurora Serverless
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-statement-4-determine-high-performing-andor-scalable-network-architectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task Statement 4: Determine high-performing and/or scalable network architectures.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#high-performing-and-scalable-network-architectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      High-Performing and Scalable Network Architectures:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparation-for-aws-solutions-architect-associate-exam" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparation for AWS Solutions Architect Associate Exam:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#location-and-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Location and Configuration:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integration-and-data-protection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integration and Data Protection:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-vpcs-and-hybrid-architectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Amazon VPCs and Hybrid Architectures:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connectivity-options-and-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connectivity Options and Services:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#routing-and-network-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Routing and Network Performance:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-transfer-and-scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Transfer and Scalability:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#high-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      High Availability:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understand-available-services-and-tools-for-high-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understand available services and tools for high availability.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous-improvement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Continuous Improvement:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serverless-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Serverless Solutions:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-statement-5-determine-high-performing-data-ingestion-and-transformation-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task Statement 5: Determine high-performing data ingestion and transformation solutions.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-ingestion-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Ingestion Patterns:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#streaming-data-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Streaming Data Handling:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-transformation-and-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Transformation and Optimization:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-ingestion-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Ingestion Services:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-security-measures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Security Measures:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 5
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 6
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 7
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Index</h1>
+
+<h2 id="domain-3-design-high-performing-architectures">Domain 3: Design High-Performing Architectures<a class="headerlink" href="#domain-3-design-high-performing-architectures" title="Permanent link">&para;</a></h2>
+<h3 id="task-statement-1-determine-high-performing-andor-scalable-storage-solutions">Task Statement 1: Determine high-performing and/or scalable storage solutions.<a class="headerlink" href="#task-statement-1-determine-high-performing-andor-scalable-storage-solutions" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AWS offers various storage solutions, including object, block, and file storage.</li>
+<li>Selecting the right storage solution depends on factors like access method, access patterns, throughput, frequency, availability, and durability requirements.</li>
+<li>Different AWS storage services, such as EBS, S3, and EFS, have varying scalability and performance characteristics.</li>
+<li>EBS volumes require manual scaling by modifying volume type, size, and IOPS capacity.</li>
+<li>EFS automatically scales as you add or remove files from the file system.</li>
+<li>Understanding the operational support needed for storage scaling is crucial.</li>
+<li>Consider future storage needs when choosing a storage solution.</li>
+<li>Key information for storage services like S3, EBS, EFS, Amazon FSx, and Storage Gateway.</li>
+<li>S3 is globally resilient and can tolerate Availability Zone failures.</li>
+<li>EBS volume types and snapshots for backups and disaster recovery.</li>
+<li>Amazon EFS for shared file systems with performance options.</li>
+<li>Amazon FSx for Windows and Lustre file systems.</li>
+<li>Consider data growth and capacity upper bounds when selecting a storage solution.</li>
+<li>Different AWS storage services for low-latency requirements.</li>
+<li>Configurations and integrations for improving storage performance, including S3 Accelerator and CloudFront caching.</li>
+<li>Understanding API calls, multi-part uploads, and other features for data uploads and retrievals in S3.</li>
+</ul>
+<h3 id="storage-types">Storage Types:<a class="headerlink" href="#storage-types" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AWS offers three types of storage: object, block, and file.</li>
+</ul>
+<h3 id="factors-for-choosing-storage">Factors for Choosing Storage:<a class="headerlink" href="#factors-for-choosing-storage" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Selecting the right storage solution depends on factors like access method, access patterns, throughput, frequency, availability, and durability requirements.</li>
+</ul>
+<h3 id="aws-storage-services">AWS Storage Services:<a class="headerlink" href="#aws-storage-services" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Different AWS storage services have varying scalability and performance characteristics.</li>
+<li>EBS volumes require manual scaling by modifying volume type, size, and IOPS capacity.</li>
+<li>EFS automatically scales as you add or remove files from the file system.</li>
+</ul>
+<h3 id="operational-support-for-scaling">Operational Support for Scaling:<a class="headerlink" href="#operational-support-for-scaling" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Understanding the operational support needed for storage scaling is crucial.</li>
+</ul>
+<h3 id="future-storage-needs">Future Storage Needs:<a class="headerlink" href="#future-storage-needs" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Consider future storage needs when choosing a storage solution.</li>
+</ul>
+<h3 id="key-storage-services">Key Storage Services:<a class="headerlink" href="#key-storage-services" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Key information for storage services like S3, EBS, EFS, Amazon FSx, and Storage Gateway.</li>
+</ul>
+<h3 id="s3-resiliency">S3 Resiliency:<a class="headerlink" href="#s3-resiliency" title="Permanent link">&para;</a></h3>
+<ul>
+<li>S3 is globally resilient and can tolerate Availability Zone failures.</li>
+</ul>
+<h3 id="ebs-and-snapshots">EBS and Snapshots:<a class="headerlink" href="#ebs-and-snapshots" title="Permanent link">&para;</a></h3>
+<ul>
+<li>EBS volume types and snapshots for backups and disaster recovery.</li>
+</ul>
+<h3 id="amazon-efs">Amazon EFS:<a class="headerlink" href="#amazon-efs" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Amazon EFS for shared file systems with performance options.</li>
+</ul>
+<h3 id="amazon-fsx">Amazon FSx:<a class="headerlink" href="#amazon-fsx" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Amazon FSx for Windows and Lustre file systems.</li>
+</ul>
+<h3 id="data-growth-consideration">Data Growth Consideration:<a class="headerlink" href="#data-growth-consideration" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Consider data growth and capacity upper bounds when selecting a storage solution.</li>
+</ul>
+<h3 id="low-latency-requirements">Low-Latency Requirements:<a class="headerlink" href="#low-latency-requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Different AWS storage services for low-latency requirements.</li>
+</ul>
+<h3 id="performance-optimization">Performance Optimization:<a class="headerlink" href="#performance-optimization" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Configurations and integrations for improving storage performance, including S3 Accelerator and CloudFront caching.</li>
+<li>Understanding API calls, multi-part uploads, and other features for data uploads and retrievals in S3.</li>
+</ul>
+<h3 id="task-statement-2-design-high-performing-and-elastic-compute-solutions">Task Statement 2: Design high-performing and elastic compute solutions.<a class="headerlink" href="#task-statement-2-design-high-performing-and-elastic-compute-solutions" title="Permanent link">&para;</a></h3>
+<h3 id="designing-high-performing-and-elastic-compute-solutions">Designing High-Performing and Elastic Compute Solutions<a class="headerlink" href="#designing-high-performing-and-elastic-compute-solutions" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Scalability and elasticity in AWS depend on the design and selection of AWS services.</li>
+<li>Compute resources are available in three forms: instances, containers, and functions.</li>
+</ul>
+<h3 id="amazon-ec2-instances">Amazon EC2 Instances<a class="headerlink" href="#amazon-ec2-instances" title="Permanent link">&para;</a></h3>
+<ul>
+<li>EC2 instances come in different families, sizes, and capabilities, including CPU, memory, storage, and network bandwidth.</li>
+<li>Performance of each EC2 instance type varies, including network bandwidth, resource ratios, and additional features.</li>
+</ul>
+<h3 id="containers">Containers<a class="headerlink" href="#containers" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Understand container fundamentals and benefits, focusing on Amazon Elastic Container Service (ECS) and Amazon Kubernetes Service (EKS).</li>
+<li>ECS offers two types: Amazon EC2 and Fargate for serverless container computing.</li>
+<li>Integrate other services like application load balancers with containers.</li>
+</ul>
+<h3 id="functions-lambda">Functions (Lambda)<a class="headerlink" href="#functions-lambda" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Lambda allows running code without EC2 instances.</li>
+<li>It supports various runtime languages (e.g., Python, Java, NodeJS) and has a 15-minute execution limit.</li>
+<li>Can be deployed globally with CloudFront for better performance.</li>
+</ul>
+<h3 id="architecting-for-scalability">Architecting for Scalability<a class="headerlink" href="#architecting-for-scalability" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Architect solutions for independent scaling of compute and application components.</li>
+<li>Use services like SQS and Elastic Load Balancing to decouple workloads.</li>
+<li>Utilize CloudWatch metrics, alarms, and dashboards for visibility and scaling.</li>
+<li>Configure Amazon EC2 Auto Scaling based on CloudWatch alarms.</li>
+<li>Choose appropriate metrics for scaling, including custom and load balancing-related metrics.</li>
+</ul>
+<h3 id="service-specifics">Service Specifics<a class="headerlink" href="#service-specifics" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Some AWS services, like Lambda, are inherently scalable, while others, like EC2, require design considerations.</li>
+<li>Select EC2 instance types based on application resource needs.</li>
+<li>Consider the right architecture and services for scalable and performant solutions.</li>
+<li>Use EC2 with Elastic Load Balancing and EC2 Auto Scaling for highly available and elastic workloads.</li>
+<li>Understand when to use EC2, Lambda, or container services based on the use case.</li>
+<li>Be familiar with the benefits and limitations of each compute service in AWS.</li>
+</ul>
+<h3 id="task-statement-3-determine-high-performing-database-solutions">Task Statement 3: Determine high-performing database solutions.<a class="headerlink" href="#task-statement-3-determine-high-performing-database-solutions" title="Permanent link">&para;</a></h3>
+<h3 id="task-and-database-engine-variety">Task and Database Engine Variety<a class="headerlink" href="#task-and-database-engine-variety" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Domain 3 involves determining high-performing database solutions for applications.</li>
+<li>AWS offers a range of purpose-built database engines: relational, key-value, document, in-memory, graph, time series, and ledger databases.</li>
+</ul>
+<h3 id="database-management-simplified">Database Management Simplified<a class="headerlink" href="#database-management-simplified" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AWS handles tasks such as server provisioning, patching, setup, configuration, backups, and recovery.</li>
+<li>AWS monitors clusters, ensuring self-healing storage and automated scaling for higher value application development.</li>
+</ul>
+<h3 id="choosing-the-right-database-solution">Choosing the Right Database Solution<a class="headerlink" href="#choosing-the-right-database-solution" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The optimal database solution depends on factors like availability, consistency, partition tolerance, latency, durability, scalability, and query capability.</li>
+<li>Different subsystems may use varying database solutions and features to enhance performance.</li>
+<li>Consider access patterns and alternative storage solutions like graph, time series, or in-memory storage databases.</li>
+</ul>
+<h3 id="deep-knowledge-required">Deep Knowledge Required<a class="headerlink" href="#deep-knowledge-required" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Exam preparation should go beyond simple identification of database services; understand how they operate.</li>
+<li>Examples include configuring read replicas for RDS, understanding Amazon Aurora clusters, and data replication.</li>
+</ul>
+<h3 id="database-engine-selection">Database Engine Selection<a class="headerlink" href="#database-engine-selection" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Consider when to use different database engines like PostgreSQL or MySQL based on use cases.</li>
+<li>DynamoDB excels in consistent, single-digit millisecond performance, especially for high volumes.</li>
+<li>Choose between RDS MySQL and Aurora MySQL based on regional failover needs.</li>
+</ul>
+<h3 id="optimizing-database-throughput">Optimizing Database Throughput<a class="headerlink" href="#optimizing-database-throughput" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Optimize database throughput with caching services like ElastiCache or DAX.</li>
+<li>ElastiCache supports Redis and Memcached, while DAX accelerates DynamoDB access.</li>
+</ul>
+<h3 id="efficient-connection-management">Efficient Connection Management<a class="headerlink" href="#efficient-connection-management" title="Permanent link">&para;</a></h3>
+<ul>
+<li>RDS Proxy efficiently manages connections to RDS instances, reducing compute and memory stress, enabling scalability.</li>
+</ul>
+<h3 id="capacity-planning">Capacity Planning<a class="headerlink" href="#capacity-planning" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Understand how to choose the correct instance type and size for your workload.</li>
+<li>Explore options like RDS instance auto-scaling and storage auto-scaling.</li>
+</ul>
+<h3 id="aurora-serverless">Aurora Serverless<a class="headerlink" href="#aurora-serverless" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Aurora Serverless offers on-demand auto-scaling with cost-effective compute capacity based on application needs.</li>
+<li>It uses Aurora Capacity Units (ACUs) to manage compute and memory.</li>
+<li>Aurora Serverless can scale between minimum and maximum ACUs, and it can pause during inactivity to reduce costs.</li>
+</ul>
+<h3 id="task-statement-4-determine-high-performing-andor-scalable-network-architectures">Task Statement 4: Determine high-performing and/or scalable network architectures.<a class="headerlink" href="#task-statement-4-determine-high-performing-andor-scalable-network-architectures" title="Permanent link">&para;</a></h3>
+<h3 id="high-performing-and-scalable-network-architectures">High-Performing and Scalable Network Architectures:<a class="headerlink" href="#high-performing-and-scalable-network-architectures" title="Permanent link">&para;</a></h3>
+<h3 id="preparation-for-aws-solutions-architect-associate-exam">Preparation for AWS Solutions Architect Associate Exam:<a class="headerlink" href="#preparation-for-aws-solutions-architect-associate-exam" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Understand how to select high-performing networking solutions based on workload requirements.</li>
+<li>Networking fundamentals are crucial for informed decision-making.</li>
+<li>AWS offers various networking services and solutions for performance optimization.</li>
+</ul>
+<h3 id="location-and-configuration">Location and Configuration:<a class="headerlink" href="#location-and-configuration" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Consider location when deploying networks to reduce latency.</li>
+<li>Configure and implement networks across Regions, placement groups, and edge services for improved performance.</li>
+</ul>
+<h3 id="integration-and-data-protection">Integration and Data Protection:<a class="headerlink" href="#integration-and-data-protection" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Integrate storage services, data transfer methods, and networking options.</li>
+<li>Use network metrics for adaptive networking configurations.</li>
+<li>Consider infrastructure as code for agility.</li>
+</ul>
+<h3 id="amazon-vpcs-and-hybrid-architectures">Amazon VPCs and Hybrid Architectures:<a class="headerlink" href="#amazon-vpcs-and-hybrid-architectures" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Design and build Amazon VPCs.</li>
+<li>Secure VPCs and understand their components.</li>
+<li>Connect Amazon VPCs to on-premises data centers using various options.</li>
+</ul>
+<h3 id="connectivity-options-and-services">Connectivity Options and Services:<a class="headerlink" href="#connectivity-options-and-services" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Select connectivity options based on data volume, compliance, and performance requirements.</li>
+<li>Explore services like Transit Gateway, AWS CloudHub, PrivateLink, and VPC endpoints.</li>
+<li>Use gateway endpoints for AWS public services from private instances or subnets.</li>
+</ul>
+<h3 id="routing-and-network-performance">Routing and Network Performance:<a class="headerlink" href="#routing-and-network-performance" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Understand routing policies and Route 53 functionality.</li>
+<li>Explore Global Accelerator for improved network performance.</li>
+<li>Use AWS CloudFront to cache assets closer to end users.</li>
+</ul>
+<h3 id="data-transfer-and-scalability">Data Transfer and Scalability:<a class="headerlink" href="#data-transfer-and-scalability" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Choose the right data transfer service based on data volume, type, source, and destination.</li>
+<li>Focus on scalability for global customer bases.</li>
+<li>Utilize auto scaling, load balancing, and OSI model layers for load balancers.</li>
+</ul>
+<h3 id="high-availability">High Availability:<a class="headerlink" href="#high-availability" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Follow AWS guidelines to achieve high availability.</li>
+<li>Avoid single points of failure and use automated monitoring and failover mechanisms.</li>
+</ul>
+<h3 id="understand-available-services-and-tools-for-high-availability">Understand available services and tools for high availability.<a class="headerlink" href="#understand-available-services-and-tools-for-high-availability" title="Permanent link">&para;</a></h3>
+<h3 id="continuous-improvement"><em>Continuous Improvement:</em><a class="headerlink" href="#continuous-improvement" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Improve scalability by adding services like CloudFront and ElastiCache.</li>
+<li>Optimize scaling policies and instance sizes for better performance.</li>
+</ul>
+<h3 id="serverless-solutions">Serverless Solutions:<a class="headerlink" href="#serverless-solutions" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Build global, highly scalable serverless solutions.</li>
+<li>Utilize services like S3 website hosting, Route 53, DynamoDB global tables, CloudFront, and Global Accelerator.</li>
+</ul>
+<h3 id="task-statement-5-determine-high-performing-data-ingestion-and-transformation-solutions">Task Statement 5: Determine high-performing data ingestion and transformation solutions.<a class="headerlink" href="#task-statement-5-determine-high-performing-data-ingestion-and-transformation-solutions" title="Permanent link">&para;</a></h3>
+<p>Data Ingestion Fundamentals:</p>
+<ul>
+<li>AWS data ingestion involves collecting, curating, and preparing data from source systems for storage, data lakes, and machine learning in AWS.</li>
+<li>Data movement is crucial, and it should meet performance, latency, scale, security, and governance needs.</li>
+</ul>
+<h3 id="data-ingestion-patterns">Data Ingestion Patterns:<a class="headerlink" href="#data-ingestion-patterns" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Common data ingestion patterns include homogenous and heterogeneous patterns.</li>
+<li>Cloud-based ETL services like Amazon Athena and Amazon EMR are used for data ingestion.</li>
+</ul>
+<h3 id="streaming-data-handling">Streaming Data Handling:<a class="headerlink" href="#streaming-data-handling" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Streaming data can be handled using Amazon Kinesis and Amazon Managed Streaming for Apache Kafka.</li>
+<li>Kinesis Data Streams is for real-time data streaming with high scalability and durability.</li>
+<li>Kinesis Data Firehose simplifies capturing, transforming, and loading data streams into AWS data stores.</li>
+<li>Kinesis Data Analytics provides basic data transformation options.</li>
+</ul>
+<h3 id="data-transformation-and-optimization">Data Transformation and Optimization:<a class="headerlink" href="#data-transformation-and-optimization" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Extracted data needs transformation, loading, cataloging, and organization for machine learning and consumption.</li>
+<li>Services like Amazon EMR, AWS Glue, and AWS Lake Formation optimize data processing.</li>
+<li>Data lakes on S3 offer agility, flexibility, and centralized data management.</li>
+</ul>
+<h3 id="data-ingestion-services">Data Ingestion Services:<a class="headerlink" href="#data-ingestion-services" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AWS provides various services for data ingestion into data lakes, including Kinesis Data Fire Hose, Snow Family, Glue, AWS Data Sync, and more.</li>
+<li>Different data transfer methods are available for on-premises to cloud migration, including the Snow Family and Amazon Kinesis.</li>
+<li>AWS Glue is a data integration service for discovering, preparing, moving, and integrating data from multiple sources.</li>
+</ul>
+<h3 id="data-security-measures">Data Security Measures:<a class="headerlink" href="#data-security-measures" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Security measures for data ingestion include access policies, S3 and KMS encryption, and tagging.</li>
+<li>IAM user policies control access to data in S3.</li>
+<li>Encryption keys, such as those provided by KMS, enhance data security.</li>
+<li>Additional security measures like API Gateway, Cognito, and Cloud HSM can be used for compliance requirements, especially for PII data.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 Georgette Webb
+
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "announce.dismiss", "navigation.top", "search.suggest", "search.share", "search.highlight", "content.tabs.link", "content.tooltips", "content.code.select", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1248 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../Domain%202/">
+      
+      
+      <link rel="icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Index - Solutions Architect - SAA-C03</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#domain-1-design-secure-architectures" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Solutions Architect - SAA-C03" class="md-header__button md-logo" aria-label="Solutions Architect - SAA-C03" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.986 0a.545.545 0 0 0-.534.548l-.006 4.908c0 .145.06.283.159.39a.532.532 0 0 0 .38.155h3.429l8.197 17.68a.536.536 0 0 0 .488.319h5.811a.547.547 0 0 0 .543-.548v-4.908a.543.543 0 0 0-.543-.548h-2.013L12.739.316A.55.55 0 0 0 12.245 0H4.991Zm.54 1.09h6.367l8.16 17.681a.536.536 0 0 0 .488.318h1.818v3.817h-4.922L9.24 5.226a.536.536 0 0 0-.488-.318h-3.23Zm2.013 8.237a.538.538 0 0 0-.486.31L.6 23.213a.55.55 0 0 0 .032.528.533.533 0 0 0 .454.25h6.169a.547.547 0 0 0 .497-.31l3.38-7.165a.54.54 0 0 0-.003-.469l-3.093-6.41a.547.547 0 0 0-.494-.31Zm.006 1.804 2.488 5.152-3.122 6.62H1.947Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Solutions Architect - SAA-C03
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Index
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Solutions Architect – SAA-C03
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Domain 1
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%202/" class="md-tabs__link">
+          
+  
+  Domain 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%203/" class="md-tabs__link">
+          
+  
+  Domain 3
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%204/" class="md-tabs__link">
+          
+  
+  Domain 4
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%205/" class="md-tabs__link">
+          
+  
+  Domain 5
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%206/" class="md-tabs__link">
+          
+  
+  Domain 6
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Domain%207/" class="md-tabs__link">
+          
+  
+  Domain 7
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Solutions Architect - SAA-C03" class="md-nav__button md-logo" aria-label="Solutions Architect - SAA-C03" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.986 0a.545.545 0 0 0-.534.548l-.006 4.908c0 .145.06.283.159.39a.532.532 0 0 0 .38.155h3.429l8.197 17.68a.536.536 0 0 0 .488.319h5.811a.547.547 0 0 0 .543-.548v-4.908a.543.543 0 0 0-.543-.548h-2.013L12.739.316A.55.55 0 0 0 12.245 0H4.991Zm.54 1.09h6.367l8.16 17.681a.536.536 0 0 0 .488.318h1.818v3.817h-4.922L9.24 5.226a.536.536 0 0 0-.488-.318h-3.23Zm2.013 8.237a.538.538 0 0 0-.486.31L.6 23.213a.55.55 0 0 0 .032.528.533.533 0 0 0 .454.25h6.169a.547.547 0 0 0 .497-.31l3.38-7.165a.54.54 0 0 0-.003-.469l-3.093-6.41a.547.547 0 0 0-.494-.31Zm.006 1.804 2.488 5.152-3.122 6.62H1.947Z"/></svg>
+
+    </a>
+    Solutions Architect - SAA-C03
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Solutions Architect – SAA-C03
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#domain-1-design-secure-architectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Domain 1: Design Secure Architectures
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Domain 1: Design Secure Architectures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#task-statement-1-design-secure-access-to-aws-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task Statement 1: Design secure access to AWS resources
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Task Statement 1: Design secure access to AWS resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#designing-secure-access-to-aws-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Designing Secure Access to AWS Resources:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importance-of-aws-accounts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importance of AWS Accounts:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iam-identity-and-access-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      IAM (Identity and Access Management):
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#federated-access-and-iam-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Federated Access and IAM Roles:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iam-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      IAM Policies:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traceability-and-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traceability and Monitoring:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testing-and-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing and Implementation:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Policies:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#root-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      Root Users:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-statement-2-design-secure-workloads-and-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task Statement 2: Design secure workloads and applications.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-statement-3-determine-appropriate-data-security-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Task Statement 3: Determine appropriate data security controls.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%202/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%203/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%204/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 5
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 5
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%205/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 6
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 6
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%206/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Domain 7
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Domain 7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Domain%207/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Index</h1>
+
+<h2 id="domain-1-design-secure-architectures">Domain 1: Design Secure Architectures<a class="headerlink" href="#domain-1-design-secure-architectures" title="Permanent link">&para;</a></h2>
+<h3 id="task-statement-1-design-secure-access-to-aws-resources">Task Statement 1: Design secure access to AWS resources<a class="headerlink" href="#task-statement-1-design-secure-access-to-aws-resources" title="Permanent link">&para;</a></h3>
+<h4 id="designing-secure-access-to-aws-resources">Designing Secure Access to AWS Resources:<a class="headerlink" href="#designing-secure-access-to-aws-resources" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Security is a fundamental consideration when designing an AWS architecture.</li>
+<li>It involves defining how people, tools, and applications access AWS services and data.</li>
+<li>Access management includes determining who can launch or terminate resources and managing permissions.</li>
+<li>Different types of cloud environments (public, private, hybrid, multi-cloud) require secure access design.</li>
+</ul>
+<h4 id="importance-of-aws-accounts">Importance of AWS Accounts:<a class="headerlink" href="#importance-of-aws-accounts" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Understanding AWS accounts is fundamental.</li>
+<li>AWS accounts start with a single account root user with full permissions.</li>
+<li>The account root user can be a security risk and should have multi-factor authentication.</li>
+<li>Creating new users with limited permissions is recommended for added security.</li>
+</ul>
+<h4 id="iam-identity-and-access-management">IAM (Identity and Access Management):<a class="headerlink" href="#iam-identity-and-access-management" title="Permanent link">&para;</a></h4>
+<ul>
+<li>AWS IAM is a global service for securing data in the IAM database.</li>
+<li>Best practices include securing the account root user, applying the principle of least privilege, and using multi-factor authentication.</li>
+<li>IAM identities start with no permissions but can have permissions granted.</li>
+<li>Understanding IAM users, groups, and roles is important for managing access.</li>
+<li>The principle of least privilege limits the scope of permissions.</li>
+</ul>
+<h4 id="federated-access-and-iam-roles">Federated Access and IAM Roles:<a class="headerlink" href="#federated-access-and-iam-roles" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Users with identities outside AWS can use IAM roles for federated access.</li>
+<li>Configuring Active Directory for federated access is crucial.</li>
+<li>Controlling application access to AWS APIs without hardcoding credentials is essential.</li>
+</ul>
+<h4 id="iam-policies">IAM Policies:<a class="headerlink" href="#iam-policies" title="Permanent link">&para;</a></h4>
+<ul>
+<li>You don't need to write advanced policies but should understand how to read and interpret policy documents.</li>
+<li>IAM policies define permissions for identities and resources.</li>
+<li>Identity-based policies control what resources an identity can access.</li>
+<li>Resource-based policies control access to specific resources and their actions.</li>
+</ul>
+<h4 id="traceability-and-monitoring">Traceability and Monitoring:<a class="headerlink" href="#traceability-and-monitoring" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Traceability helps monitor, alert, and audit actions and changes to AWS resources.</li>
+<li>Integration of log and metric collection is important for real-time monitoring.</li>
+<li>Insight into access to account resources and data is crucial for security.</li>
+<li>Knowledge of AWS Control Tower, AWS Organizations, and service control policies is essential for security design.</li>
+</ul>
+<h4 id="testing-and-implementation">Testing and Implementation:<a class="headerlink" href="#testing-and-implementation" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Designing security strategies for multiple AWS accounts is a testable skill.</li>
+<li>AWS Control Tower and AWS Organizations help with security standards and enforcement.</li>
+<li>Learning and practicing security design and implementation is important.</li>
+</ul>
+<h4 id="policies">Policies:<a class="headerlink" href="#policies" title="Permanent link">&para;</a></h4>
+<ul>
+<li>IAM policies define permissions for AWS identities and resources.</li>
+<li>There are two types of policies: identity-based and resource-based.</li>
+<li>Identity-based policies are attached to IAM users, groups, or roles, controlling their access to resources.</li>
+<li>Resource-based policies are attached to specific AWS resources (e.g., S3 buckets, SQS queues) and specify who can access and what actions are allowed on the resource.</li>
+<li>Understanding policy documents is important; you don't need to write advanced policies for the certification.</li>
+<li>IAM policies help enforce the principle of least privilege, limiting permissions to what is necessary.</li>
+</ul>
+<h4 id="root-users">Root Users:<a class="headerlink" href="#root-users" title="Permanent link">&para;</a></h4>
+<ul>
+<li>AWS accounts begin with a single account root user.</li>
+<li>The account root user has full permissions and is a security risk if compromised.</li>
+<li>It's recommended to secure the account root user by enabling multi-factor authentication (MFA).</li>
+<li>Permissions for the account root user cannot be changed or modified.</li>
+<li>Creating additional IAM users with limited permissions is a safer practice than using the account root user.</li>
+<li>Using the principle of least privilege, assign permissions based on user roles and responsibilities to limit potential risks.</li>
+</ul>
+<h3 id="task-statement-2-design-secure-workloads-and-applications">Task Statement 2: Design secure workloads and applications.<a class="headerlink" href="#task-statement-2-design-secure-workloads-and-applications" title="Permanent link">&para;</a></h3>
+<ul>
+<li>It emphasizes secure access to AWS services, including resource launch and termination, access management, permissions, and more.</li>
+<li>Understanding Amazon Virtual Private Cloud (Amazon VPC) is fundamental, with distinctions between default and custom VPCs.</li>
+<li>Amazon VPC is a regional service, and subnets within VPCs are Availability Zone resilient.</li>
+<li>Key elements of securing VPC architectures include security groups, network access control lists, route tables, and NAT gateways.</li>
+<li>Knowledge of networking fundamentals, protocols, CIDR, subnetting, routing, and gateways is important.</li>
+<li>Understanding network segmentation, public and private subnets, and their differences is crucial.</li>
+<li>Routing mechanisms within a VPC, including route tables, are essential for secure traffic flow.</li>
+<li>
+<p>Designing secure access for on-premises traffic through VPNs and selecting appropriate components like PrivateLink, peering, transit gateways, and Direct Connect is important.</p>
+</li>
+<li>
+<p>AWS endpoints and endpoint services, such as PrivateLink, enable secure access to AWS public services without exposing them to the internet.</p>
+</li>
+<li>Securing external connections using AWS Site-to-Site VPNs, AWS Client VPN, and Direct Connect requires capacity, security, and resilience considerations.</li>
+<li>Security best practices for data protection, including personally identifiable information (PII), involve services like Amazon Macie, Amazon Cognito, and Amazon GuardDuty.</li>
+<li>Understanding Cognito user pools, identity pools, and single sign-on (SSO) is necessary.</li>
+<li>Firewalls and proxy servers are integrated with security services like AWS Shield, AWS WAF, AWS IAM Identity Center, AWS Secrets Manager, and AWS Systems Manager Parameter Store.</li>
+<li>Shield Standard and Shield Advance have different capabilities for DDoS and SQL injection attack prevention.</li>
+<li>Choosing the right service for specific requirements, such as AWS Secrets Manager for secret storage, is essential.</li>
+<li>AWS WAF is limited to certain AWS services like application load balancers, Amazon API Gateway, and Amazon CloudFront.</li>
+</ul>
+<h3 id="task-statement-3-determine-appropriate-data-security-controls">Task Statement 3: Determine appropriate data security controls.<a class="headerlink" href="#task-statement-3-determine-appropriate-data-security-controls" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Data security is a critical focus area, whether data is in transit or at rest.</li>
+<li>Implementing the principle of least privilege is essential to limit access to those who need it and only to the required degree.</li>
+<li>Two types of encryption are crucial: encryption at rest and encryption in transit.</li>
+<li>Encryption at rest protects against unauthorized access and theft and is typically used when only one party is involved.</li>
+<li>Encryption in transit protects data during transfer between two or more parties.</li>
+<li>Key terms and concepts include plaintext, algorithm, key, and ciphertext.</li>
+<li>Symmetric and asymmetric encryption are two types of encryption.</li>
+<li>Knowledge of methods for securing data at rest, managing encryption keys, and key rotation is important.</li>
+<li>Understanding access policies for encryption keys and the differences between various services is necessary.</li>
+<li>AWS Certificate Manager is used for encrypting data in transit, and certificates must be renewed.</li>
+<li>Amazon S3 offers encryption at rest and in transit, with client-side and server-side encryption options.</li>
+<li>Different server-side encryption choices include customer-provided keys, S3-managed keys, and customer master keys in AWS KMS.</li>
+<li>
+<p>Compliance requirements must be met, and AWS Artifact provides security and compliance reports.</p>
+</li>
+<li>
+<p>Data retention, classification, and data recovery are important considerations.</p>
+</li>
+<li>Not all data is equal, so proper data classification is essential.</li>
+<li>Layering multiple security controls (preventative and detective) is crucial for defense in depth.</li>
+<li>Data protection strategies should align with architecture and requirements.</li>
+<li>Understanding how various AWS services handle data protection, performance implications, and key management is essential.</li>
+<li>Protecting data based on access patterns and using policies is important, especially in services like S3.</li>
+<li>Disaster recovery strategies in AWS range from backups to multi-site active-active solutions.</li>
+<li>AWS Backup and various AWS services offer backup and restore capabilities.</li>
+<li>AWS Storage Gateway is a service for hybrid environments.</li>
+<li>Data security patterns and AWS security controls should be considered in data protection designs.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 Georgette Webb
+
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "announce.dismiss", "navigation.top", "search.suggest", "search.share", "search.highlight", "content.tabs.link", "content.tooltips", "content.code.select", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
