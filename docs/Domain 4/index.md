@@ -1,4 +1,4 @@
-## Domain 4: Design Cost-Optimized Architectures
+## <a id="domain 4">Domain 4: Design Cost-Optimized Architectures</a>
 
 ### Task Statement 1: Design cost-optimized storage solutions.
 

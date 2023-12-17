@@ -1,4 +1,4 @@
-## Domain 2: Design Resilient Architectures
+## <a id="domain 2">Domain 2: Design Resilient Architectures</a>
 
 ### Task Statement 1: Design scalable and loosely coupled architectures.
 

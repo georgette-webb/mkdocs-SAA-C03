@@ -1,4 +1,4 @@
-## Domain 1: Design Secure Architectures
+## <a id="domain 1">Domain 1: Design Secure Architectures</a>
 
 ### Task Statement 1: Design secure access to AWS resources
 

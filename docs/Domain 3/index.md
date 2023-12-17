@@ -1,4 +1,4 @@
-## Domain 3: Design High-Performing Architectures
+## <a id="domain 3">Domain 3: Design High-Performing Architectures</a>
 
 ### Task Statement 1: Determine high-performing and/or scalable storage solutions.
 
