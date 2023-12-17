@@ -65,4 +65,7 @@ copyright: |
   Copyright &copy; 2023 Georgette Webb
 extra:
   generator: false
+extra_javascript:
+  - js/custom.js
+
   
