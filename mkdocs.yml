@@ -15,7 +15,7 @@ theme:
 
   features:
     - navigation.tabs
-    - navigation.sections
+    #- navigation.sections
     - toc.integrate
     - announce.dismiss
     - navigation.top
@@ -59,6 +59,7 @@ theme:
   plugins:
     - typeset:
         enabled: true
+    - privacy
 
 markdown_extensions:
   - admonition
@@ -84,4 +85,3 @@ extra:
   generator: false
 extra_javascript:
   - js/custom.js
-  
